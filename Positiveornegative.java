@@ -9,6 +9,10 @@ public class Positiveornegative {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the no to find positive or negative");
         n=sc.nextInt();
+        if(n==0){
+            System.out.println(n+" is a 0");
+            exit();
+        }
         if(n<0)
             System.out.println(n+" is a negative no");
         else
